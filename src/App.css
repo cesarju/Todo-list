@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.iconTrash,
+.iconEdit {
+  width: 25px;
+  height: 25px;
+  padding-left: 7px;
+}
+
+.containerTask {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eceff4;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 0px 10px 0px 10px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.item {
+  display: flex;
+}
+
+.input-add-todo {
+  width: 80%;
+  border-radius: 5px;
+  border: solid 2px #d0d3d9;
+  padding-left: 10px;
+}
+
+.add-button {
+  margin-left: 30px;
+  color: #fff;
+  background-color: rgb(15, 132, 210);
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+.container-input {
+  display: flex;
+  justify-content: center;
+}
