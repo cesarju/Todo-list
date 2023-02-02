@@ -55,3 +55,22 @@ p {
   display: flex;
   justify-content: center;
 }
+
+.app {
+  border: 2px solid rgb(174, 170, 170);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container-blok {
+  display: flex;
+  justify-content: space-between;
+}
+.button-clear {
+  background-color: rgb(220, 75, 75);
+  color: white;
+  border: none;
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+}

@@ -25,9 +25,13 @@ function App() {
     },
   ];
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <TaskList lista={listTask} />
+      <div className="container-blok">
+        <p>You have 2 pending task</p>
+        <button className="button-clear">Clear all</button>
+      </div>
     </div>
   );
 }

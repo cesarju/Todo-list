@@ -20,9 +20,6 @@ export const TaskList = (props) => {
             onCheckTimeClick={handleCheckTime}
           />
         ))}
-        {/* <Task taskName="Hacer la tarea asdasdas" />
-        <Task taskName="Hacer la tarea" />
-        <Task taskName="Hacer la tarea" /> */}
       </ul>
     </div>
   );
