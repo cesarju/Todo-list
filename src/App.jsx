@@ -3,26 +3,31 @@ import Header from "./components/Header";
 import { TaskList } from "./components/TaskList";
 function App() {
   const listTask = [
-    {
+    /*     {
       id: 1,
-      title: "Hacer la cama",
+      titleTask: "Hacer la cama ",
+      description: "Esta tarea se completa al tender la cama",
       status: false,
-    },
+    }, */
+    /*  
     {
       id: 2,
-      title: "Ir a GYM",
-      status: false,
+      titleTask: "Ir a GYM",
+      description: "Esta tarea se completa al hacer ejercicios durante 1h",
+      status: true,
     },
     {
       id: 3,
-      title: "Practica de react",
+      titleTask: "Practica de react",
+      description: "Esta tarea se completa al hacer mini",
       status: false,
     },
     {
       id: 4,
-      title: "Estudiar test en react con jest",
+      titleTask: "Estudiar test en react con jest",
+      description: "Esta tarea se completa la practicar jest",
       status: false,
-    },
+    }, */
   ];
   return (
     <div className="app">
